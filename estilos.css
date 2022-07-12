@@ -1,0 +1,31 @@
+/* 
+Modelo de caixa
+*/
+
+.conteudo {
+	border: 1px solid darkred;
+
+	/*Para fazer de uma maneira manual :*/
+
+	/*padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;*/
+
+	/* Ou pode ser feito apenas com uma linha : */
+
+	/*padding: 20px 15px 10px 5px;*/
+ 
+  /* Para colocar nas larguras "Cima" e "Baixo"*/
+
+  /*	padding: 20px 5px; */
+
+  padding: 20px;
+/* margin  Segue a mesma logica porem é interno*/
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+
+	width: 150px;
+}
